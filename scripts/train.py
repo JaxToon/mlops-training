@@ -22,7 +22,7 @@ def main():
     n_estimators = int(sys.argv[1])
     max_depth = int(sys.argv[2])
 
-    df = pd.read_csv("D:\\Project\\BelajarPython\\HandsOn\\MLOps\\data\\train_v2.csv")
+    df = pd.read_csv("data/train_v2.csv")
     X_train, X_test, y_train, y_test = train_test_split(
         df.drop("target", axis=1), df["target"],
         test_size=0.2, random_state=42)
