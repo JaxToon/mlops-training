@@ -11,4 +11,4 @@ jobs:
       - run: python scripts/validate_data.py
       - run: python scripts/train.py 200 8
       - name: Cek model gate
-        run: python scripts/check_model_gate.py 0.50
+        run: python scripts/check_model_gate.py 0.80
