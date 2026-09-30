@@ -1,0 +1,23 @@
+artifact_path: file:D:/Project/BelajarPython/HandsOn/MLOps/mlruns/1/models/m-e83fc5d7f0514254913f3c5b62764951/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-e83fc5d7f0514254913f3c5b62764951
+model_size_bytes: 4391349
+model_uuid: m-e83fc5d7f0514254913f3c5b62764951
+prompts: null
+run_id: 589821d510d64c1c9f473f5c483a1cfd
+utc_time_created: '2026-09-30 06:35:08.760443'
